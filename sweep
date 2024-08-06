@@ -1,0 +1,4 @@
+export CUDA_VISIBLE_DEVICES=0
+export CUDA_LAUNCH_BLOCKING=1
+
+nohup python l_sweep.py > sweeplog &
